@@ -1,0 +1,107 @@
+<mxfile host="app.diagrams.net">
+  <diagram id="K91mAA6udquislKsCpzT" name="Página-1">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="1200" pageHeight="800" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="b4-Uql_2vSm9XITO7XZC-27" edge="1" parent="1" source="b4-Uql_2vSm9XITO7XZC-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.002;entryY=0.502;entryDx=0;entryDy=0;strokeWidth=2;endArrow=none;endFill=0;entryPerimeter=0;" target="b4-Uql_2vSm9XITO7XZC-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="b4-Uql_2vSm9XITO7XZC-28" connectable="0" parent="b4-Uql_2vSm9XITO7XZC-27" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="JSON via HTTPS" vertex="1">
+          <mxGeometry relative="1" x="-0.125" y="4" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="b4-Uql_2vSm9XITO7XZC-3" parent="1" style="verticalAlign=top;align=left;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=4;html=1;whiteSpace=wrap;" value="" vertex="1">
+          <mxGeometry height="160" width="530" x="110" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="b4-Uql_2vSm9XITO7XZC-4" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;span style=&quot;font-weight: 700;&quot;&gt;«Device»&lt;/span&gt;&lt;br style=&quot;font-weight: 700;&quot;&gt;&lt;div style=&quot;font-weight: 700; white-space: nowrap;&quot;&gt;PC,&amp;nbsp; / MÓVIL&amp;nbsp;Android 10 o superior / iOS 13 o superior&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="60" x="345" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="b4-Uql_2vSm9XITO7XZC-5" parent="1" style="shape=note;whiteSpace=wrap;html=1;size=6;fillColor=#FFFFFF;strokeColor=#000000;fontColor=#000000;spacing=0;rounded=0;shadow=0;" value="«Requerimiento»&lt;br&gt;- Conectividad LAN: boolean" vertex="1">
+          <mxGeometry height="50" width="170" x="420" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="b4-Uql_2vSm9XITO7XZC-6" parent="1" style="html=1;dropTarget=0;whiteSpace=wrap;align=left;" value="«artifact»&lt;br&gt;+ Navegador&lt;div&gt;+ SistemaOperativo&lt;/div&gt;&lt;div&gt;+ UsarAplicacionWeb&lt;/div&gt;" vertex="1">
+          <mxGeometry height="70" width="170" x="140" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="b4-Uql_2vSm9XITO7XZC-25" edge="1" parent="1" source="b4-Uql_2vSm9XITO7XZC-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;endArrow=none;endFill=0;entryX=0.428;entryY=0.993;entryDx=0;entryDy=0;entryPerimeter=0;" target="b4-Uql_2vSm9XITO7XZC-20">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="853" y="650" />
+            </Array>
+            <mxPoint x="820" y="650" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="b4-Uql_2vSm9XITO7XZC-33" connectable="0" parent="b4-Uql_2vSm9XITO7XZC-25" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="HTTPS / SMTP TLS" vertex="1">
+          <mxGeometry relative="1" x="-0.019" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="b4-Uql_2vSm9XITO7XZC-26" edge="1" parent="1" source="b4-Uql_2vSm9XITO7XZC-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;endArrow=none;endFill=0;entryX=0.494;entryY=0.998;entryDx=0;entryDy=0;entryPerimeter=0;" target="b4-Uql_2vSm9XITO7XZC-16">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="851" y="410" />
+            </Array>
+            <mxPoint x="760" y="430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="b4-Uql_2vSm9XITO7XZC-31" connectable="0" parent="b4-Uql_2vSm9XITO7XZC-26" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="TCP local (SQL / Caché)" vertex="1">
+          <mxGeometry relative="1" x="-0.0462" y="3" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="b4-Uql_2vSm9XITO7XZC-7" parent="1" style="verticalAlign=top;align=left;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=4;html=1;whiteSpace=wrap;" value="" vertex="1">
+          <mxGeometry height="410" width="530" x="110" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="b4-Uql_2vSm9XITO7XZC-8" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;span style=&quot;font-weight: 700;&quot;&gt;«Device»&lt;/span&gt;&lt;br style=&quot;font-weight: 700;&quot;&gt;&lt;div style=&quot;font-weight: 700; white-space: nowrap;&quot;&gt;SERVIDOR WEB&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="60" x="345" y="335" as="geometry" />
+        </mxCell>
+        <mxCell id="b4-Uql_2vSm9XITO7XZC-9" parent="1" style="shape=note;whiteSpace=wrap;html=1;size=6;fillColor=#FFFFFF;strokeColor=#000000;fontColor=#000000;spacing=0;rounded=0;shadow=0;" value="«Requerimiento»&lt;br&gt;- Conectividad LAN: boolean" vertex="1">
+          <mxGeometry height="50" width="170" x="400" y="390" as="geometry" />
+        </mxCell>
+        <mxCell id="b4-Uql_2vSm9XITO7XZC-16" parent="1" style="verticalAlign=top;align=left;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=4;html=1;whiteSpace=wrap;" value="" vertex="1">
+          <mxGeometry height="180" width="440" x="850" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="b4-Uql_2vSm9XITO7XZC-17" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;span style=&quot;font-weight: 700;&quot;&gt;«Device»&lt;/span&gt;&lt;br style=&quot;font-weight: 700;&quot;&gt;&lt;div style=&quot;font-weight: 700; white-space: nowrap;&quot;&gt;Base de Datos (PostgreSQL)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="60" x="1040" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="b4-Uql_2vSm9XITO7XZC-18" parent="1" style="shape=note;whiteSpace=wrap;html=1;size=6;fillColor=#FFFFFF;strokeColor=#000000;fontColor=#000000;spacing=0;rounded=0;shadow=0;" value="«Requerimiento»&lt;br&gt;- Conectividad LAN: boolean" vertex="1">
+          <mxGeometry height="50" width="170" x="1080" y="375" as="geometry" />
+        </mxCell>
+        <mxCell id="b4-Uql_2vSm9XITO7XZC-19" parent="1" style="html=1;dropTarget=0;whiteSpace=wrap;align=left;" value="«artifact»&lt;br&gt;+ PostgreSQL&lt;div&gt;+ AlmacenarDatos&lt;/div&gt;&lt;div&gt;+ Consultar&lt;/div&gt;&lt;div&gt;+ Redis&lt;/div&gt;&lt;div&gt;+ CacheTTL&lt;/div&gt;" vertex="1">
+          <mxGeometry height="95" width="170" x="870" y="375" as="geometry" />
+        </mxCell>
+        <mxCell id="b4-Uql_2vSm9XITO7XZC-20" parent="1" style="verticalAlign=top;align=left;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=4;html=1;whiteSpace=wrap;" value="" vertex="1">
+          <mxGeometry height="180" width="440" x="850" y="560" as="geometry" />
+        </mxCell>
+        <mxCell id="b4-Uql_2vSm9XITO7XZC-21" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;b&gt;«external system»&lt;/b&gt;&lt;br style=&quot;font-weight: 700;&quot;&gt;&lt;div style=&quot;font-weight: 700; white-space: nowrap;&quot;&gt;Servicios Externos&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="60" x="1040" y="570" as="geometry" />
+        </mxCell>
+        <mxCell id="b4-Uql_2vSm9XITO7XZC-22" parent="1" style="shape=note;whiteSpace=wrap;html=1;size=6;fillColor=#FFFFFF;strokeColor=#000000;fontColor=#000000;spacing=0;rounded=0;shadow=0;" value="«Requerimiento»&lt;br&gt;- Conectividad LAN: boolean" vertex="1">
+          <mxGeometry height="50" width="170" x="1080" y="615" as="geometry" />
+        </mxCell>
+        <mxCell id="b4-Uql_2vSm9XITO7XZC-23" parent="1" style="html=1;dropTarget=0;whiteSpace=wrap;align=left;" value="«artifact»&lt;br&gt;+ Webpay&lt;div&gt;+ MercadoPago&lt;/div&gt;&lt;div&gt;+ WhatsApp_Business&lt;/div&gt;&lt;div&gt;+ SMTP_Email&lt;/div&gt;&lt;div&gt;+ SmartOLT&lt;/div&gt;" vertex="1">
+          <mxGeometry height="95" width="170" x="870" y="615" as="geometry" />
+        </mxCell>
+        <mxCell id="TJXLM9BMX-deYB_6uK3R-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;align=left;overflow=fill;spacingTop=8;spacingLeft=6;spacingRight=6;fillColor=#FFFFFF;strokeColor=#000000;fontColor=#000000;" value="&lt;p style=&quot;text-align: center; margin: 0px 0px 0px 8px;&quot;&gt;Módulos&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 8px;&quot;&gt;+ Controladores:&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 8px;&quot;&gt;AuthController, &lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;ContratoController,&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 8px;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;PagoController, &lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;MorosidadController,&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 8px;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;TicketController, &lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;NotificacionController,&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 8px;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;MapaCoberturaController&lt;/span&gt;&lt;/p&gt;" vertex="1">
+          <mxGeometry height="150" width="170" x="140" y="560" as="geometry" />
+        </mxCell>
+        <mxCell id="TJXLM9BMX-deYB_6uK3R-7" parent="1" style="html=1;dropTarget=0;whiteSpace=wrap;align=left;" value="&lt;p style=&quot;margin: 4px 0px 0px;&quot;&gt;«Artifact»&lt;br&gt;&lt;span style=&quot;white-space: nowrap; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;+ Nginx&lt;/span&gt;&lt;/p&gt;&lt;div style=&quot;white-space: nowrap;&quot;&gt;+ Next.js&lt;/div&gt;&lt;div style=&quot;white-space: nowrap;&quot;&gt;+ NestJS&lt;/div&gt;&lt;div style=&quot;white-space: nowrap;&quot;&gt;+ WebSocketGateway&lt;/div&gt;&lt;div style=&quot;white-space: nowrap;&quot;&gt;+ JWT_Auth&lt;/div&gt;&lt;div style=&quot;white-space: nowrap;&quot;&gt;+ Bcrypt&lt;/div&gt;&lt;div style=&quot;white-space: nowrap;&quot;&gt;+ RateLimit&lt;/div&gt;&lt;div style=&quot;white-space: nowrap;&quot;&gt;+ GenerarPDF&lt;/div&gt;&lt;div style=&quot;white-space: nowrap;&quot;&gt;+ Leaflet_WebGL&lt;/div&gt;" vertex="1">
+          <mxGeometry height="160" width="170" x="140" y="390" as="geometry" />
+        </mxCell>
+        <mxCell id="Jg_cwr_3MKGW-3gOK1ak-13" parent="1" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" value="" vertex="1">
+          <mxGeometry height="8" width="520" x="110" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="T4FIg91FuHMFOuEQcTon-1" parent="1" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" value="" vertex="1">
+          <mxGeometry height="8" width="430" x="850" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="T4FIg91FuHMFOuEQcTon-2" parent="1" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" value="" vertex="1">
+          <mxGeometry height="8" width="430" x="850" y="600" as="geometry" />
+        </mxCell>
+        <mxCell id="T4FIg91FuHMFOuEQcTon-3" parent="1" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" value="" vertex="1">
+          <mxGeometry height="8" width="520" x="110" y="365" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
