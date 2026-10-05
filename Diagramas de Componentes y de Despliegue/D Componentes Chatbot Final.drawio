@@ -1,0 +1,160 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Componentes Chatbot" id="chatbot-components">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="rCDiTv7OKtMNzPKq6AvR-1" parent="1" style="verticalAlign=top;align=left;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=4;html=1;whiteSpace=wrap;" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;Base de datos / Tablas&lt;/b&gt;&lt;/span&gt;" vertex="1">
+          <mxGeometry height="295" width="380" x="1100" y="293.75" as="geometry" />
+        </mxCell>
+        <mxCell id="vista-container" parent="1" style="verticalAlign=top;align=left;spacingTop=8;spacingLeft=8;shape=cube;size=10;direction=south;html=1;whiteSpace=wrap;" value="&lt;b&gt;Vista&lt;/b&gt;" vertex="1">
+          <mxGeometry height="300" width="200" x="20" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="comp-nextjs" parent="1" style="align=left;overflow=fill;html=1;whiteSpace=wrap;" value="&lt;p style=&quot;margin:0;text-align:center;&quot;&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px;&quot;&gt;&lt;b&gt;Páginas Next.js&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin:4px 6px;&quot;&gt;Landing Page&lt;br&gt;Portal Cliente&lt;br&gt;Panel Admin&lt;/p&gt;" vertex="1">
+          <mxGeometry height="100" width="160" x="40" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="comp-react" parent="1" style="align=left;overflow=fill;html=1;whiteSpace=wrap;" value="&lt;p style=&quot;margin:0;text-align:center;&quot;&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/p&gt;&lt;p style=&quot;text-align: justify; margin: 0px;&quot;&gt;&lt;b&gt;React Components&lt;/b&gt;&lt;/p&gt;&lt;hr style=&quot;text-align: justify;&quot;&gt;&lt;p style=&quot;margin:4px 6px;&quot;&gt;UI · Hooks · SSR/ISR&lt;/p&gt;" vertex="1">
+          <mxGeometry height="90" width="160" x="40" y="265" as="geometry" />
+        </mxCell>
+        <mxCell id="server-container" parent="1" style="verticalAlign=top;align=left;spacingTop=8;spacingLeft=8;shape=cube;size=10;direction=south;html=1;whiteSpace=wrap;" value="&lt;b&gt;Servidor Chatbot&lt;/b&gt;" vertex="1">
+          <mxGeometry height="757.5" width="660" x="330" y="62.5" as="geometry" />
+        </mxCell>
+        <mxCell id="comp-authguard" parent="1" style="align=left;overflow=fill;html=1;whiteSpace=wrap;" value="&lt;p style=&quot;margin:0;text-align:center;&quot;&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px;&quot;&gt;&lt;b&gt;AuthGuard&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin:4px 6px;&quot;&gt;JWT + Rate Limiting&lt;/p&gt;" vertex="1">
+          <mxGeometry height="70" width="160" x="380" y="273.75" as="geometry" />
+        </mxCell>
+        <mxCell id="comp-websocket" parent="1" style="align=left;overflow=fill;html=1;whiteSpace=wrap;" value="&lt;p style=&quot;margin: 0px;&quot;&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px;&quot;&gt;&lt;b&gt;WebSocket Gateway&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin:4px 6px;&quot;&gt;Socket.io / NestJS&lt;/p&gt;" vertex="1">
+          <mxGeometry height="70" width="160" x="580" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="comp-maints" parent="1" style="align=left;overflow=fill;html=1;whiteSpace=wrap;" value="&lt;p style=&quot;margin: 0px;&quot;&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px;&quot;&gt;&lt;b&gt;main.ts&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin:4px 6px;&quot;&gt;Bootstrap + Swagger&lt;/p&gt;" vertex="1">
+          <mxGeometry height="70" width="150" x="385" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="comp-logica" parent="1" style="align=left;overflow=fill;html=1;whiteSpace=wrap;" value="&lt;p style=&quot;margin:0;text-align:center;&quot;&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px;&quot;&gt;&lt;b&gt;Lógica del Chatbot&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin:4px 6px;&quot;&gt;iniciarConversacion()&lt;br&gt;procesarMensaje()&lt;br&gt;responder()&lt;br&gt;derivarOperador()&lt;/p&gt;" vertex="1">
+          <mxGeometry height="110" width="160" x="380" y="414" as="geometry" />
+        </mxCell>
+        <mxCell id="comp-redis" parent="1" style="shape=datastore;whiteSpace=wrap;html=1;" value="Redis Caché" vertex="1">
+          <mxGeometry height="60" width="120" x="1220" y="490" as="geometry" />
+        </mxCell>
+        <mxCell id="comp-postgres" parent="1" style="shape=datastore;whiteSpace=wrap;html=1;" value="BD_Finet&lt;br&gt;PostgreSQL" vertex="1">
+          <mxGeometry height="60" width="120" x="1220" y="383" as="geometry" />
+        </mxCell>
+        <mxCell id="comp-modules" parent="1" style="align=left;overflow=fill;html=1;whiteSpace=wrap;" value="&lt;p style=&quot;margin: 0px;&quot;&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px;&quot;&gt;&lt;b&gt;Módulos NestJS&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin:4px 6px;&quot;&gt;AuthModule · ContratoModule&lt;br&gt;PagoModule · TicketModule&lt;br&gt;NotificacionModule&lt;/p&gt;" vertex="1">
+          <mxGeometry height="120" width="160" x="760" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="ext-apiclient" parent="1" style="align=left;overflow=fill;html=1;whiteSpace=wrap;" value="&lt;p style=&quot;margin: 0px;&quot;&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px;&quot;&gt;&lt;span style=&quot;color: rgba(0, 0, 0, 0); font-family: monospace; font-size: 0px; white-space: nowrap; background-color: transparent;&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20parent%3D%221%22%20style%3D%22shape%3Dmodule%3BjettyWidth%3D8%3BjettyHeight%3D4%3B%22%20value%3D%22%22%20vertex%3D%221%22%3E%3CmxGeometry%20height%3D%2220%22%20width%3D%2220%22%20x%3D%221330%22%20y%3D%22100%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;&lt;span style=&quot;color: rgba(0, 0, 0, 0); font-family: monospace; font-size: 0px; white-space: nowrap; background-color: transparent;&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20parent%3D%221%22%20style%3D%22shape%3Dmodule%3BjettyWidth%3D8%3BjettyHeight%3D4%3B%22%20value%3D%22%22%20vertex%3D%221%22%3E%3CmxGeometry%20height%3D%2220%22%20width%3D%2220%22%20x%3D%221330%22%20y%3D%22100%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;&lt;b style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;API de Cliente&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin:4px 6px;&quot;&gt;obtenerSaldo(rut)&lt;br&gt;obtenerEstado()&lt;/p&gt;" vertex="1">
+          <mxGeometry height="80" width="150" x="380" y="690" as="geometry" />
+        </mxCell>
+        <mxCell id="ext-notif" parent="1" style="align=left;overflow=fill;html=1;whiteSpace=wrap;" value="&lt;p style=&quot;margin:0;text-align:center;&quot;&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px;&quot;&gt;&lt;b&gt;Servicio de Notificaciones&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin:4px 6px;&quot;&gt;enviar()&lt;/p&gt;" vertex="1">
+          <mxGeometry height="80" width="200" x="550" y="680" as="geometry" />
+        </mxCell>
+        <mxCell id="ext-tickets" parent="1" style="align=left;overflow=fill;html=1;whiteSpace=wrap;" value="&lt;p style=&quot;margin: 0px;&quot;&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px;&quot;&gt;&lt;b&gt;Sistema de Tickets&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin:4px 6px;&quot;&gt;crearTicket()&lt;br&gt;cerrarTicket()&lt;/p&gt;" vertex="1">
+          <mxGeometry height="80" width="150" x="710" y="550" as="geometry" />
+        </mxCell>
+        <mxCell id="e2" edge="1" parent="1" source="comp-nextjs" style="endArrow=none;html=1;strokeWidth=1.5;rounded=0;curved=0;" target="comp-react">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e3" edge="1" parent="1" source="comp-react" style="endArrow=none;html=1;strokeWidth=1.5;fontSize=10;rounded=0;curved=0;" target="comp-authguard" value="HTTP / JSON">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e4" edge="1" parent="1" source="comp-authguard" style="endArrow=none;html=1;strokeWidth=1.5;rounded=0;curved=0;" target="comp-logica">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e5" edge="1" parent="1" source="comp-websocket" style="endArrow=none;html=1;strokeWidth=1.5;fontSize=10;edgeStyle=orthogonalEdgeStyle;entryX=0.894;entryY=-0.009;entryDx=0;entryDy=0;entryPerimeter=0;rounded=0;curved=0;" target="comp-logica" value="WebSocket">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="610" y="390" />
+              <mxPoint x="523" y="390" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e6" edge="1" parent="1" source="comp-logica" style="endArrow=none;html=1;strokeWidth=1.5;fontSize=10;rounded=0;curved=0;" target="comp-gestor" value="">
+          <mxGeometry relative="1" x="0.5214" y="34" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="74FL28jBT26FfeTDsYnP-1" connectable="0" parent="e6" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="&lt;span style=&quot;font-size: 10px;&quot;&gt;API interna&lt;/span&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.02" y="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e7" edge="1" parent="1" source="comp-gestor" style="endArrow=none;html=1;strokeWidth=1.5;edgeStyle=orthogonalEdgeStyle;entryX=0;entryY=0.5;entryDx=0;entryDy=0;rounded=0;curved=0;" target="comp-redis">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1080" y="470" />
+              <mxPoint x="1080" y="520" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e8" edge="1" parent="1" source="comp-gestor" style="endArrow=none;html=1;strokeWidth=1.5;edgeStyle=orthogonalEdgeStyle;entryX=0;entryY=0.5;entryDx=0;entryDy=0;rounded=0;curved=0;" target="comp-postgres">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1080" y="460" />
+              <mxPoint x="1080" y="413" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e9" edge="1" parent="1" source="comp-modules" style="endArrow=none;html=1;strokeWidth=1.5;edgeStyle=orthogonalEdgeStyle;entryX=1;entryY=0.25;entryDx=0;entryDy=0;rounded=0;curved=0;" target="comp-logica">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="660" y="320" />
+              <mxPoint x="660" y="442" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e10" edge="1" parent="1" source="comp-maints" style="endArrow=none;html=1;strokeWidth=1.5;" target="comp-authguard">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e11" edge="1" parent="1" source="comp-logica" style="endArrow=none;html=1;strokeWidth=1.5;fontSize=10;rounded=0;curved=0;" target="ext-apiclient" value="HTTPS API">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e12" edge="1" parent="1" source="comp-logica" style="endArrow=none;html=1;strokeWidth=1.5;fontSize=10;edgeStyle=orthogonalEdgeStyle;exitX=0.902;exitY=0.997;exitDx=0;exitDy=0;exitPerimeter=0;rounded=0;curved=0;" target="ext-notif" value="SMTP / TLS">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e13" edge="1" parent="1" source="comp-logica" style="endArrow=none;html=1;strokeWidth=1.5;fontSize=10;edgeStyle=orthogonalEdgeStyle;exitX=1;exitY=0.75;exitDx=0;exitDy=0;rounded=0;curved=0;" target="ext-tickets" value="HTTPS API">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="540" y="500" />
+              <mxPoint x="660" y="500" />
+              <mxPoint x="660" y="590" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="comp-gestor" parent="1" style="align=left;overflow=fill;html=1;whiteSpace=wrap;" value="&lt;p style=&quot;margin:0;text-align:center;&quot;&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px;&quot;&gt;&lt;b&gt;Gestor de Conversación&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin:4px 6px;&quot;&gt;guardarMensaje()&lt;br&gt;obtenerContexto()&lt;/p&gt;" vertex="1">
+          <mxGeometry height="110" width="190" x="750" y="410" as="geometry" />
+        </mxCell>
+        <mxCell id="74FL28jBT26FfeTDsYnP-8" parent="1" style="shape=module;jettyWidth=8;jettyHeight=4;" value="" vertex="1">
+          <mxGeometry height="20" width="20" x="170" y="273.75" as="geometry" />
+        </mxCell>
+        <mxCell id="74FL28jBT26FfeTDsYnP-9" parent="1" style="shape=module;jettyWidth=8;jettyHeight=4;" value="" vertex="1">
+          <mxGeometry height="20" width="20" x="170" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="74FL28jBT26FfeTDsYnP-10" parent="1" style="shape=module;jettyWidth=8;jettyHeight=4;" value="" vertex="1">
+          <mxGeometry height="20" width="20" x="510" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="74FL28jBT26FfeTDsYnP-11" parent="1" style="shape=module;jettyWidth=8;jettyHeight=4;" value="" vertex="1">
+          <mxGeometry height="20" width="20" x="710" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="74FL28jBT26FfeTDsYnP-12" parent="1" style="shape=module;jettyWidth=8;jettyHeight=4;" value="" vertex="1">
+          <mxGeometry height="20" width="20" x="500" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="74FL28jBT26FfeTDsYnP-13" parent="1" style="shape=module;jettyWidth=8;jettyHeight=4;" value="" vertex="1">
+          <mxGeometry height="20" width="20" x="890" y="265" as="geometry" />
+        </mxCell>
+        <mxCell id="74FL28jBT26FfeTDsYnP-14" parent="1" style="shape=module;jettyWidth=8;jettyHeight=4;" value="" vertex="1">
+          <mxGeometry height="20" width="20" x="910" y="414" as="geometry" />
+        </mxCell>
+        <mxCell id="74FL28jBT26FfeTDsYnP-15" parent="1" style="shape=module;jettyWidth=8;jettyHeight=4;" value="" vertex="1">
+          <mxGeometry height="20" width="20" x="830" y="560" as="geometry" />
+        </mxCell>
+        <mxCell id="74FL28jBT26FfeTDsYnP-16" parent="1" style="shape=module;jettyWidth=8;jettyHeight=4;" value="" vertex="1">
+          <mxGeometry height="20" width="20" x="720" y="690" as="geometry" />
+        </mxCell>
+        <mxCell id="74FL28jBT26FfeTDsYnP-17" parent="1" style="shape=module;jettyWidth=8;jettyHeight=4;" value="" vertex="1">
+          <mxGeometry height="20" width="20" x="500" y="700" as="geometry" />
+        </mxCell>
+        <mxCell id="74FL28jBT26FfeTDsYnP-18" parent="1" style="shape=module;jettyWidth=8;jettyHeight=4;" value="" vertex="1">
+          <mxGeometry height="20" width="20" x="510" y="423.75" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

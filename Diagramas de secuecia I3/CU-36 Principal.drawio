@@ -1,0 +1,129 @@
+<mxfile host="app.diagrams.net" agent="Codex">
+  <diagram id="CU-36-Principal" name="CU-36 Principal">
+    <mxGraphModel grid="0" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="1320" pageHeight="751" background="#ffffff" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="p0" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fontStyle=1;fontSize=12;fontFamily=Arial;strokeColor=#000000;" value="Cliente" vertex="1">
+          <mxGeometry height="88" width="56" x="142" y="24" as="geometry" />
+        </mxCell>
+        <mxCell id="p1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontStyle=1;fillColor=#ffffff;strokeColor=#000000;fontSize=12;fontFamily=Arial;" value="V_NavegacionSitio" vertex="1">
+          <mxGeometry height="48" width="200" x="315" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="p2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontStyle=1;fillColor=#ffffff;strokeColor=#000000;fontSize=12;fontFamily=Arial;" value="V_VelocidadPage" vertex="1">
+          <mxGeometry height="48" width="200" x="560" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="p3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontStyle=1;fillColor=#ffffff;strokeColor=#000000;fontSize=12;fontFamily=Arial;" value="V_FastSpeedTest" vertex="1">
+          <mxGeometry height="48" width="200" x="805" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="p4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontStyle=1;fillColor=#ffffff;strokeColor=#000000;fontSize=12;fontFamily=Arial;" value="C_Navegacion" vertex="1">
+          <mxGeometry height="48" width="200" x="1050" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="life0" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;dashed=1;dashPattern=4 4;strokeColor=#000000;strokeWidth=1;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="170" y="108" as="sourcePoint" />
+            <mxPoint x="170" y="706" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="life1" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;dashed=1;dashPattern=4 4;strokeColor=#000000;strokeWidth=1;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="415" y="108" as="sourcePoint" />
+            <mxPoint x="415" y="706" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="life2" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;dashed=1;dashPattern=4 4;strokeColor=#000000;strokeWidth=1;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="660" y="108" as="sourcePoint" />
+            <mxPoint x="660" y="706" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="life3" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;dashed=1;dashPattern=4 4;strokeColor=#000000;strokeWidth=1;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="905" y="108" as="sourcePoint" />
+            <mxPoint x="905" y="706" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="life4" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;dashed=1;dashPattern=4 4;strokeColor=#000000;strokeWidth=1;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1150" y="108" as="sourcePoint" />
+            <mxPoint x="1150" y="706" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="act0" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1;" value="" vertex="1">
+          <mxGeometry height="476" width="10" x="165" y="171" as="geometry" />
+        </mxCell>
+        <mxCell id="act1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1;" value="" vertex="1">
+          <mxGeometry height="476" width="10" x="410" y="171" as="geometry" />
+        </mxCell>
+        <mxCell id="act2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1;" value="" vertex="1">
+          <mxGeometry height="228" width="10" x="655" y="295" as="geometry" />
+        </mxCell>
+        <mxCell id="act3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1;" value="" vertex="1">
+          <mxGeometry height="104" width="10" x="900" y="357" as="geometry" />
+        </mxCell>
+        <mxCell id="act4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1;" value="" vertex="1">
+          <mxGeometry height="352" width="10" x="1145" y="233" as="geometry" />
+        </mxCell>
+        <mxCell id="m1" edge="1" parent="1" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#000000;strokeWidth=1.2;fontStyle=1;fontSize=12;fontFamily=Arial;labelBackgroundColor=none;" value="1. Presiona Test de velocidad &lt;br&gt;en la página principal">
+          <mxGeometry relative="1" x="0.0122" y="25" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="170" y="185" as="sourcePoint" />
+            <mxPoint x="415" y="185" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m2" edge="1" parent="1" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#000000;strokeWidth=1.2;fontStyle=1;fontSize=12;fontFamily=Arial;labelBackgroundColor=none;" value="2. Solicita acceder a /velocidad">
+          <mxGeometry relative="1" x="0.0014" y="23" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="415" y="247" as="sourcePoint" />
+            <mxPoint x="1150" y="247" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m3" edge="1" parent="1" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#000000;strokeWidth=1.2;fontStyle=1;fontSize=12;fontFamily=Arial;labelBackgroundColor=none;" value="3. Solicita cargar la vista de la herramienta">
+          <mxGeometry relative="1" y="-23" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1150" y="309" as="sourcePoint" />
+            <mxPoint x="660" y="309" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m4" edge="1" parent="1" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#000000;strokeWidth=1.2;fontStyle=1;fontSize=12;fontFamily=Arial;labelBackgroundColor=none;" value="4. Carga el componente de medición">
+          <mxGeometry relative="1" x="-0.0041" y="20" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="660" y="371" as="sourcePoint" />
+            <mxPoint x="905" y="371" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m5" edge="1" parent="1" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#000000;strokeWidth=1.2;fontStyle=1;fontSize=12;fontFamily=Arial;labelBackgroundColor=none;dashed=1;dashPattern=6 4;" value="5. Devuelve componente &lt;br&gt;inicial y botón Iniciar prueba">
+          <mxGeometry relative="1" x="-0.0286" y="-19" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="786" y="433" />
+            </Array>
+            <mxPoint x="905" y="433" as="sourcePoint" />
+            <mxPoint x="660" y="433" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m6" edge="1" parent="1" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#000000;strokeWidth=1.2;fontStyle=1;fontSize=12;fontFamily=Arial;labelBackgroundColor=none;dashed=1;dashPattern=6 4;" value="6. Confirma la vista cargada">
+          <mxGeometry relative="1" y="15" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="660" y="495" as="sourcePoint" />
+            <mxPoint x="1150" y="495" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m7" edge="1" parent="1" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#000000;strokeWidth=1.2;fontStyle=1;fontSize=12;fontFamily=Arial;labelBackgroundColor=none;dashed=1;dashPattern=6 4;" value="7. Completa el acceso a /velocidad">
+          <mxGeometry relative="1" x="0.0122" y="-19" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1150" y="557" as="sourcePoint" />
+            <mxPoint x="415" y="557" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m8" edge="1" parent="1" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#000000;strokeWidth=1.2;fontStyle=1;fontSize=12;fontFamily=Arial;labelBackgroundColor=none;dashed=1;dashPattern=6 4;" value="8. Muestra la herramienta lista &lt;br&gt;para iniciar la prueba">
+          <mxGeometry relative="1" x="0.0286" y="-26" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="415" y="619" as="sourcePoint" />
+            <mxPoint x="170" y="619" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
